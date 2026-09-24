@@ -2,6 +2,8 @@
 
 Full Stack Course (University of Helsinki)
 
+![Full Stack Course](course-image.png)
+
 ## Full Stack Open (University of Helsinki)
 
 ### Course content
