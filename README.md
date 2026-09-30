@@ -19,6 +19,7 @@ Coursework for the [Full Stack Open](https://fullstackopen.com) course by the Un
 | 8 | GraphQL | [`part8/`](part8/) | Apollo Server, GraphQL, MongoDB, React, Apollo Client |
 | 9 | TypeScript | [`part9/`](part9/) | TypeScript, Express, Zod, React, Material UI |
 | 10 | React Native | [`part10/`](part10/) | React Native, Expo, Apollo Client, GraphQL |
+| 11 | CI/CD | [`part11/`](part11/) | GitHub Actions, Fly.io, Playwright |
 
 ## Part 4 — Bloglist backend
 
@@ -144,6 +145,12 @@ cd part10/rate-repository-app
 npm install
 npx expo start     # scan the QR code with Expo Go, or press a/i for an emulator
 ```
+
+## Part 11 — CI/CD
+
+Continuous integration and delivery with GitHub Actions (exercises 11.1–11.21):
+
+- [`part11/`](part11/) — lint/build/test/E2E pipeline, Fly.io deployment, versioning, Discord notifications, and periodic health checks
 
 ## Course content
 

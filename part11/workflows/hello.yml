@@ -1,0 +1,16 @@
+name: Hello World
+
+on: push
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo "Hello World!"
+
+      - name: Print the current date
+        run: date
+
+      - name: List the directory contents in long format
+        run: ls -la
