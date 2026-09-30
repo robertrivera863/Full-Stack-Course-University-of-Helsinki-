@@ -14,6 +14,7 @@ Coursework for the [Full Stack Open](https://fullstackopen.com) course by the Un
 | 3 | Programming a server with Node.js and Express | [`part3/phonebook-backend/`](part3/phonebook-backend/) | Node, Express |
 | 4 | Testing Express servers, user administration | [`part4/bloglist-backend/`](part4/bloglist-backend/) | Node, Express, MongoDB, Mongoose, Jest, Supertest, JWT |
 | 5 | Testing React apps, custom hooks | [`part5/bloglist-frontend/`](part5/bloglist-frontend/) | React, Vite, React Router, Styled Components, Vitest, Playwright |
+| 6 | Advanced state management | [`part6/`](part6/) | React, Vite, Zustand, TanStack Query, Context API |
 
 ## Part 4 — Bloglist backend
 
@@ -53,6 +54,24 @@ npm run dev        # dev server, proxies /api to localhost:3003
 npm test           # unit tests
 npm run test:e2e   # Playwright (needs backend running + npx playwright install)
 npm run lint
+```
+
+## Part 6 — State management
+
+Three small apps built in sequence (exercises 6.1–6.22):
+
+- [`part6/unicafe/`](part6/unicafe/) — the unicafe feedback counter rebuilt with **Zustand** (6.1)
+- [`part6/anecdotes/`](part6/anecdotes/) — an anecdotes app using **Zustand + json-server**, with Vitest tests (6.2–6.15)
+- [`part6/query-anecdotes/`](part6/query-anecdotes/) — the same app rebuilt with **TanStack Query + React Context** (6.16–6.22)
+
+### Run
+
+```bash
+cd part6/anecdotes           # or part6/query-anecdotes
+npm install
+npm run server               # start json-server (http://localhost:3001)
+npm run dev                  # start the dev server
+npm test                     # anecdotes only (6.12–6.15)
 ```
 
 ## Course content
