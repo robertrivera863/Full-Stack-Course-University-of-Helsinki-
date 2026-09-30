@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/types.ts","./src/components/AddEntryForm.tsx","./src/components/EntryDetails.tsx","./src/components/PatientListPage.tsx","./src/components/PatientPage.tsx","./src/services/patientService.ts"],"version":"5.9.3"}
