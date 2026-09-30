@@ -1,0 +1,23 @@
+Script started on Tue Feb 20 14:38:14 2024
+$ docker exec -it todo-backend-redis-1 bash
+root@b3e112b0b565:/data# redis-cli
+127.0.0.1:6379> SET counter 1
+OK
+127.0.0.1:6379> GET counter
+"1"
+127.0.0.1:6379> SET counter 2
+OK
+127.0.0.1:6379> GET counter
+"2"
+127.0.0.1:6379> DEL counter
+(integer) 1
+127.0.0.1:6379> GET counter
+(nil)
+127.0.0.1:6379> SET counter 9001
+OK
+127.0.0.1:6379> GET counter
+"9001"
+127.0.0.1:6379> exit
+root@b3e112b0b565:/data# exit
+$ exit
+Script done on Tue Feb 20 14:41:39 2024

@@ -1,0 +1,42 @@
+services:
+  backend:
+    build:
+      context: ../part4/bloglist-backend
+      dockerfile: ../../part12/backend.Dockerfile
+    ports:
+      - '3003:3003'
+    environment:
+      MONGODB_URI: mongodb://mongo:27017/bloglist
+      PORT: 3003
+      SECRET: mysecret
+    depends_on:
+      - mongo
+
+  frontend:
+    build:
+      context: ../part5/bloglist-frontend
+      dockerfile: ../../part12/frontend.Dockerfile
+    ports:
+      - '8080:80'
+
+  mongo:
+    image: mongo:6
+    ports:
+      - '27017:27017'
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    volumes:
+      - mongo-data:/data/db
+
+  redis:
+    image: redis:7
+    ports:
+      - '6379:6379'
+    command: ['redis-server', '--appendonly', 'yes']
+    volumes:
+      - redis-data:/data
+
+volumes:
+  mongo-data:
+  redis-data:

@@ -1,0 +1,16 @@
+Script started on Sat Feb  3 18:59:19 2024
+$ docker start -i festive_shockley
+root@a85ed72983b5:/# curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+=> Downloading nvm as script to '/root/.nvm'
+=> Appending nvm source string to /root/.bashrc
+=> Close and reopen your terminal to start using nvm
+root@a85ed72983b5:/# source ~/.bashrc
+root@a85ed72983b5:/# nvm install 16
+Downloading and installing node v16.20.2...
+Now using node v16.20.2 (npm v8.19.4)
+root@a85ed72983b5:/# node /usr/src/app/index.js
+Hello World!
+root@a85ed72983b5:/# exit
+exit
+$ exit
+Script done on Sat Feb  3 19:00:14 2024

@@ -20,6 +20,7 @@ Coursework for the [Full Stack Open](https://fullstackopen.com) course by the Un
 | 9 | TypeScript | [`part9/`](part9/) | TypeScript, Express, Zod, React, Material UI |
 | 10 | React Native | [`part10/`](part10/) | React Native, Expo, Apollo Client, GraphQL |
 | 11 | CI/CD | [`part11/`](part11/) | GitHub Actions, Fly.io, Playwright |
+| 12 | Containers | [`part12/`](part12/) | Docker, Docker Compose, MongoDB, Redis |
 
 ## Part 4 — Bloglist backend
 
@@ -151,6 +152,12 @@ npx expo start     # scan the QR code with Expo Go, or press a/i for an emulator
 Continuous integration and delivery with GitHub Actions (exercises 11.1–11.21):
 
 - [`part11/`](part11/) — lint/build/test/E2E pipeline, Fly.io deployment, versioning, Discord notifications, and periodic health checks
+
+## Part 12 — Containers
+
+Containerization with Docker and Docker Compose (exercises 12.1–12.11):
+
+- [`part12/`](part12/) — script-answer transcripts (12.1–12.4, 12.8, 12.11), Dockerfiles for the bloglist app, and a `docker-compose.yml` with MongoDB + Redis
 
 ## Course content
 

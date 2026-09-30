@@ -1,0 +1,15 @@
+Script started on Tue Jan 30 07:54:16 2024
+$ docker container run -it ubuntu bash
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+ce9ebea987c2: Pulling fs layer
+ce9ebea987c2: Download complete
+ce9ebea987c2: Pull complete
+Digest: sha256:e6173d4dc55e76b87c4af8db8821b1feae4146dd47341e4d431118c7dd060a74
+Status: Downloaded newer image for ubuntu:latest
+root@a85ed72983b5:/# mkdir /usr/src/app
+root@a85ed72983b5:/# touch /usr/src/app/index.js
+root@a85ed72983b5:/# exit
+exit
+$ exit
+Script done on Tue Jan 30 07:55:04 2024
