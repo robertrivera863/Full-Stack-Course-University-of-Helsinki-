@@ -15,6 +15,7 @@ Coursework for the [Full Stack Open](https://fullstackopen.com) course by the Un
 | 4 | Testing Express servers, user administration | [`part4/bloglist-backend/`](part4/bloglist-backend/) | Node, Express, MongoDB, Mongoose, Jest, Supertest, JWT |
 | 5 | Testing React apps, custom hooks | [`part5/bloglist-frontend/`](part5/bloglist-frontend/) | React, Vite, React Router, Styled Components, Vitest, Playwright |
 | 6 | Advanced state management | [`part6/`](part6/) | React, Vite, Zustand, TanStack Query, Context API |
+| 7 | Custom hooks, extending the bloglist | [`part7/`](part7/) | React, Vite, Zustand, React Router, Comments |
 
 ## Part 4 — Bloglist backend
 
@@ -72,6 +73,31 @@ npm install
 npm run server               # start json-server (http://localhost:3001)
 npm run dev                  # start the dev server
 npm test                     # anecdotes only (6.12–6.15)
+```
+
+## Part 7 — Custom hooks & extending the bloglist
+
+- [`part7/anecdotes/`](part7/anecdotes/) — custom hooks (`useField`, `useAnecdotes`) for the anecdotes app (7.1–7.6)
+- [`part7/bloglist/`](part7/bloglist/) — frontend + backend together, extended with Zustand, users views, comments and an error boundary (7.7–7.20)
+
+### Run
+
+```bash
+# anecdotes
+cd part7/anecdotes
+npm install
+npm run server    # json-server on :3001
+npm run dev
+
+# bloglist backend
+cd part7/bloglist/backend
+npm install
+npm run dev       # port 3003 (needs MongoDB)
+
+# bloglist frontend
+cd part7/bloglist/frontend
+npm install
+npm run dev       # proxies /api to :3003
 ```
 
 ## Course content
