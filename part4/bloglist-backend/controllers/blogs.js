@@ -1,6 +1,5 @@
 const blogsRouter = require('express').Router()
 const Blog = require('../models/blog')
-const User = require('../models/user')
 const { userExtractor } = require('../utils/middleware')
 
 // 4.17 — list all blogs, populated with creator info

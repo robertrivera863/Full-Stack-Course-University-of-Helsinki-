@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "node --watch index.js",
-    "test": "cross-env NODE_ENV=test jest --verbose --runInBand"
+    "test": "cross-env NODE_ENV=test jest --verbose --runInBand",
+    "lint": "eslint ."
   },
   "jest": {
     "testEnvironment": "node"
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
+    "eslint": "^8.57.0",
     "jest": "^29.7.0",
     "supertest": "^7.0.0"
   }
