@@ -16,6 +16,7 @@ Coursework for the [Full Stack Open](https://fullstackopen.com) course by the Un
 | 5 | Testing React apps, custom hooks | [`part5/bloglist-frontend/`](part5/bloglist-frontend/) | React, Vite, React Router, Styled Components, Vitest, Playwright |
 | 6 | Advanced state management | [`part6/`](part6/) | React, Vite, Zustand, TanStack Query, Context API |
 | 7 | Custom hooks, extending the bloglist | [`part7/`](part7/) | React, Vite, Zustand, React Router, Comments |
+| 8 | GraphQL | [`part8/`](part8/) | Apollo Server, GraphQL, MongoDB, React, Apollo Client |
 
 ## Part 4 — Bloglist backend
 
@@ -98,6 +99,27 @@ npm run dev       # port 3003 (needs MongoDB)
 cd part7/bloglist/frontend
 npm install
 npm run dev       # proxies /api to :3003
+```
+
+## Part 8 — GraphQL
+
+A "library" app built with GraphQL (exercises 8.1–8.26):
+
+- [`part8/library-backend/`](part8/library-backend/) — Apollo Server + Express + MongoDB, with users/JWT, a `bookAdded` subscription and a dataloader for the n+1 problem
+- [`part8/library-frontend/`](part8/library-frontend/) — React + Apollo Client, with authors/books views, login, genre filtering and subscriptions
+
+### Run
+
+```bash
+# backend (needs MongoDB)
+cd part8/library-backend
+npm install
+npm run dev       # http://localhost:4000
+
+# frontend
+cd part8/library-frontend
+npm install
+npm run dev       # http://localhost:5173
 ```
 
 ## Course content
