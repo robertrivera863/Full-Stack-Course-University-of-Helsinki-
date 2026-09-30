@@ -22,6 +22,7 @@ Coursework for the [Full Stack Open](https://fullstackopen.com) course by the Un
 | 11 | CI/CD | [`part11/`](part11/) | GitHub Actions, Fly.io, Playwright |
 | 12 | Containers | [`part12/`](part12/) | Docker, Docker Compose, MongoDB, Redis |
 | 13 | Relational databases | [`part13/`](part13/) | PostgreSQL, Sequelize, Express |
+| 14 | Next.js | [`part14-nextjs/`](part14-nextjs/) | Next.js, React, TypeScript |
 
 ## Part 4 — Bloglist backend
 
@@ -165,6 +166,12 @@ Containerization with Docker and Docker Compose (exercises 12.1–12.11):
 The bloglist backend rebuilt with PostgreSQL and Sequelize (exercises 13.1+):
 
 - [`part13/`](part13/) — psql exercises (`commands.sql`), a Sequelize backend (`backend/`), and a PostgreSQL `docker-compose.yml`
+
+## Part 14 — Next.js
+
+A bloglist application rebuilt with Next.js (App Router):
+
+- [`part14-nextjs/`](part14-nextjs/) — root layout + navigation, home/blogs/users/login pages, server and client components
 
 ## Course content
 
