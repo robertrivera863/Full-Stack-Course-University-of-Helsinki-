@@ -18,6 +18,7 @@ Coursework for the [Full Stack Open](https://fullstackopen.com) course by the Un
 | 7 | Custom hooks, extending the bloglist | [`part7/`](part7/) | React, Vite, Zustand, React Router, Comments |
 | 8 | GraphQL | [`part8/`](part8/) | Apollo Server, GraphQL, MongoDB, React, Apollo Client |
 | 9 | TypeScript | [`part9/`](part9/) | TypeScript, Express, Zod, React, Material UI |
+| 10 | React Native | [`part10/`](part10/) | React Native, Expo, Apollo Client, GraphQL |
 
 ## Part 4 — Bloglist backend
 
@@ -129,6 +130,20 @@ npm run dev       # http://localhost:5173
 - [`part9/courseinfo/`](part9/courseinfo/) — course info app with exhaustive type checking (9.15–9.16)
 - [`part9/diaries/`](part9/diaries/) — flight diaries app: fetch/add, error handling, typed forms (9.17–9.20)
 - [`part9/patientor/`](part9/patientor/) — full-stack patient-records app, backend + frontend (9.8–9.14, 9.21–9.30)
+
+## Part 10 — React Native
+
+A mobile "rate repository" app built with React Native and Expo (exercises 10.1–10.27):
+
+- [`part10/rate-repository-app/`](part10/rate-repository-app/) — repository list (search, ordering, infinite scroll), sign in/up (Formik + Yup), single-repository view with reviews, "my reviews" with delete, and a GraphQL backend
+
+### Run
+
+```bash
+cd part10/rate-repository-app
+npm install
+npx expo start     # scan the QR code with Expo Go, or press a/i for an emulator
+```
 
 ## Course content
 
