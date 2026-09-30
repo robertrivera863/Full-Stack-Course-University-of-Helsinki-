@@ -93,10 +93,10 @@ npm run lint
 - End to end -testing
 
 ### Part 6: Advanced state management
-- Flux-architecture and Redux
-- Many reducers
-- Communicating with server in a redux application
-- React Query, useReducer and the context API
+- Flux-architecture and Zustand
+- Communicating with the server (json-server)
+- React Query (TanStack Query)
+- React Context and the useReducer hook
 
 ### Part 7: React router, styling app with CSS and webpack
 - React-router
